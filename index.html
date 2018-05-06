@@ -800,6 +800,7 @@
 							shadowFlip : 0.4,
 							onEndFlip : function(prev, next, isLimit) {
 								document.getElementById('seite').value = next*2+2;
+								location.hash =  next * 2 + 2;
 							},
 							startPage : Math.floor(page / 2 + 0.5)
 						} );
