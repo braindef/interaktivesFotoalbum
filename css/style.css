@@ -11,8 +11,8 @@
 
 
 .bb-custom-wrapper {
-	width: 90%;
-	height: 90%;
+	width: 80%;
+	height: 95%;
 	position: relative;
 margin:auto;
 
@@ -20,7 +20,7 @@ margin:auto;
 
 .bb-custom-wrapper .bb-bookblock {
 	width: 100%;
-padding-bottom:50%;
+padding-bottom:58%;
 	-webkit-perspective: 2000px;
 	perspective: 2000px;
 }
