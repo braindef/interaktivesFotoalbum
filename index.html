@@ -778,7 +778,11 @@
 
 
 			var Page = (function() {
-				
+						var page = location.hash.replace( /^#/, "");
+						if (!(page > 1))
+							page = 1;
+						document.getElementById('seite').value = page;
+
 				var config = {
 						$bookBlock : $( '#bb-bookblock' ),
 						$navNext : $( '#bb-nav-next' ),
@@ -789,13 +793,15 @@
 						$navLast : $( '#bb-nav-last' )
 					},
 					init = function() {
+
 						config.$bookBlock.bookblock( {
 							speed : 2000,
 							shadowSides : 0.8,
 							shadowFlip : 0.4,
 							onEndFlip : function(prev, next, isLimit) {
 								document.getElementById('seite').value = next*2+2;
-							}
+							},
+							startPage : Math.floor(page / 2)
 						} );
 						initEvents();
 					},
@@ -804,13 +810,13 @@
 						var $slides = config.$bookBlock.children();
 
 						// jump a menu item
-						$(window).load(function(){
-						var hash = location.hash;
-						doublepage = hash.replace( /^#/, "");
-						page = Math.floor(hash.replace( /^#/, "")/2+0.5);
-						config.$bookBlock.bookblock( 'jump', page );
-						document.getElementById('seite').value = doublepage;
-						} );
+						//$(window).load(function(){
+	//					var hash = location.hash;
+	//					doublepage = hash.replace( /^#/, "");
+	//					page = Math.floor(hash.replace( /^#/, "")/2+0.5);
+	//					config.$bookBlock.bookblock( 'jump', page );
+	//					document.getElementById('seite').value = doublepage;
+						//} );
 
 
 
