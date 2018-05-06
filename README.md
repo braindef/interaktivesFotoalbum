@@ -3,7 +3,7 @@
 + jquery.zoom.js Zoom funktion (Maus gedrückt halten, Touch auch gedrückt halten)
 + Umblätter Funktion von OpenSource Projekt BookBlock
 + möglichkeit die Fotoalbum Seiten zu beschriften
-++ für die Positionsangabe Prozent werte verwenden dass es auf allen Formaten stimmt
+ + für die Positionsangabe Prozent werte verwenden dass es auf allen Formaten stimmt
 + mit z.B. **.../index.html#33** kann man z.B. automatisch auf die 33. Seite springen um diese extern zu referenzieren
 
 ## das einzige was man noch tun muss um ein Album zu erstellen:
