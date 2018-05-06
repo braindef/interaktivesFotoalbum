@@ -1,6 +1,6 @@
 # Vorlage für ein interaktives Fotoalbum
 
-+ jquery.zoom.js Zoom funktion (Maus oder Touch gedrückt halten)
++ jquery.zoom.js Zoom funktion (Maus oder Touch gedrückt halten auf dem Foto)
 + Vorlage zum Umblätter der Seiten vom OpenSource Projekt ![BookBlock](https://github.com/codrops/BookBlock)
 + möglichkeit die Fotoalbum Seiten zu beschriften
  + für die Positionsangabe und Schriftgrässe Prozent-Werte verwenden dass es auf allen Formaten stimmt
