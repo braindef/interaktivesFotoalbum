@@ -7,5 +7,5 @@
 + mit z.B. **.../index.html#33** kann man z.B. automatisch auf die 33. Seite springen um diese extern zu referenzieren
 
 ## das einzige was man noch tun muss um ein Album zu erstellen:
-die gescanten Seiten des Fotoalbums (1.jpg, 2.jpg, 3.jpg....) alle mit der gleichen auflösung im Verzeichnis /images abzulegen und allenfalls die Seiten im index.html zu beschriften da wo man beschriften möchte
+die gescanten Seiten des Fotoalbums (1.jpg, 2.jpg, 3.jpg....) alle mit der gleichen Auflösung (z.B. 6000x6000 Pixel) im Verzeichnis /images/ abzulegen und allenfalls die Seiten im index.html zu beschriften da wo man was beschriften möchte
 
